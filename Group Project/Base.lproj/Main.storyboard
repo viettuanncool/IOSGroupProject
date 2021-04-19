@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3Kv-nB-r2g">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3Kv-nB-r2g">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -986,10 +986,10 @@ TWlsZXN0b25lIDIgLUR1ZQs
             </objects>
             <point key="canvasLocation" x="360.86956521739131" y="774.77678571428567"/>
         </scene>
-        <!--View Controller-->
+        <!--Grade Calculator View Controller-->
         <scene sceneID="OXw-Z4-RgA">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="uem-Tw-Buz" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="uem-Tw-Buz" customClass="GradeCalculatorViewController" customModule="Group_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jYR-fh-iND">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1004,17 +1004,17 @@ TWlsZXN0b25lIDIgLUR1ZQs
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grade" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8L-Ej-he1">
-                                <rect key="frame" x="111" y="150" width="47" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grade(%)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8L-Ej-he1">
+                                <rect key="frame" x="97.5" y="150" width="74" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="47" id="4Mu-F5-24T"/>
+                                    <constraint firstAttribute="width" constant="74" id="4Mu-F5-24T"/>
                                     <constraint firstAttribute="height" constant="21" id="aiR-xL-26p"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Ne-S1-eBt">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(e.g. 99.99)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Ne-S1-eBt">
                                 <rect key="frame" x="86" y="180" width="97" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="B38-7Q-edu"/>
@@ -1023,7 +1023,7 @@ TWlsZXN0b25lIDIgLUR1ZQs
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Bz-uC-15g">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(e.g. 99.99)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Bz-uC-15g">
                                 <rect key="frame" x="86" y="222" width="97" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="i90-oP-eI8"/>
@@ -1032,7 +1032,7 @@ TWlsZXN0b25lIDIgLUR1ZQs
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pom-AR-cfi">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(e.g. 99.99)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pom-AR-cfi">
                                 <rect key="frame" x="86" y="264" width="97" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="jXl-aX-x8X"/>
@@ -1041,7 +1041,7 @@ TWlsZXN0b25lIDIgLUR1ZQs
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LUS-eJ-yK2">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(e.g. 99.99)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LUS-eJ-yK2">
                                 <rect key="frame" x="86" y="306" width="97" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="9ak-ly-YjP"/>
@@ -1050,7 +1050,7 @@ TWlsZXN0b25lIDIgLUR1ZQs
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gvu-fV-9o2">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(e.g. 99.99)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gvu-fV-9o2">
                                 <rect key="frame" x="86" y="348" width="97" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="4Zw-vo-tH8"/>
@@ -1059,7 +1059,7 @@ TWlsZXN0b25lIDIgLUR1ZQs
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WbP-xZ-nJ0">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(e.g. 10)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WbP-xZ-nJ0">
                                 <rect key="frame" x="225" y="180" width="97" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="93s-f8-IlA"/>
@@ -1068,7 +1068,7 @@ TWlsZXN0b25lIDIgLUR1ZQs
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oSu-Ls-nkr">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(e.g. 10)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oSu-Ls-nkr">
                                 <rect key="frame" x="225" y="222" width="97" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="GiY-uV-NIP"/>
@@ -1077,7 +1077,7 @@ TWlsZXN0b25lIDIgLUR1ZQs
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XeM-Lu-Sd6">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(e.g. 10)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XeM-Lu-Sd6">
                                 <rect key="frame" x="225" y="264" width="97" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="4SA-xJ-x0b"/>
@@ -1086,7 +1086,7 @@ TWlsZXN0b25lIDIgLUR1ZQs
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iep-Zk-QoC">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(e.g. 10)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iep-Zk-QoC">
                                 <rect key="frame" x="225" y="306" width="97" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="cea-Bh-QZR"/>
@@ -1095,7 +1095,7 @@ TWlsZXN0b25lIDIgLUR1ZQs
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FkW-yp-3PC">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(e.g. 10)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FkW-yp-3PC">
                                 <rect key="frame" x="225" y="348" width="97" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="JjS-xo-6Vk"/>
@@ -1104,10 +1104,10 @@ TWlsZXN0b25lIDIgLUR1ZQs
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xe0-iS-bET">
-                                <rect key="frame" x="246" y="150" width="54" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight(%)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xe0-iS-bET">
+                                <rect key="frame" x="232.5" y="150" width="81" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="54" id="fya-SF-cIP"/>
+                                    <constraint firstAttribute="width" constant="81" id="fya-SF-cIP"/>
                                     <constraint firstAttribute="height" constant="21" id="mGu-fq-73W"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1136,6 +1136,9 @@ TWlsZXN0b25lIDIgLUR1ZQs
                                 <state key="normal" title="Calculate">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="submitCalcGrade" destination="uem-Tw-Buz" eventType="touchUpInside" id="jUf-lz-y6z"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Current Grade" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmu-To-nqn">
                                 <rect key="frame" x="72" y="530" width="148" height="21"/>
@@ -1194,6 +1197,15 @@ TWlsZXN0b25lIDIgLUR1ZQs
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="813-kx-ohN">
+                                <rect key="frame" x="246" y="783" width="97" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="9JX-vH-dRl"/>
+                                    <constraint firstAttribute="height" constant="34" id="CTE-tF-r27"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHj-Rh-8XJ">
                                 <rect key="frame" x="107" y="711" width="200" height="30"/>
                                 <color key="backgroundColor" name="AccentColor"/>
@@ -1205,6 +1217,9 @@ TWlsZXN0b25lIDIgLUR1ZQs
                                 <state key="normal" title="Calculate">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="calcFinalGradeBtn" destination="uem-Tw-Buz" eventType="touchUpInside" id="3gC-v2-bth"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3f-fp-Mx3">
                                 <rect key="frame" x="45" y="70" width="27" height="26"/>
@@ -1217,11 +1232,22 @@ TWlsZXN0b25lIDIgLUR1ZQs
                                     <segue destination="Exp-hQ-BTT" kind="show" id="o0o-Rf-Cs4"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final Grade Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2d-8E-t3y">
+                                <rect key="frame" x="72" y="789.5" width="157" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="157" id="ZIQ-OG-TTf"/>
+                                    <constraint firstAttribute="height" constant="21" id="ZpQ-X0-bQt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="btf-XW-osr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="pom-AR-cfi" firstAttribute="centerX" secondItem="jYR-fh-iND" secondAttribute="centerX" constant="-72.5" id="0rt-7C-hH6"/>
+                            <constraint firstItem="813-kx-ohN" firstAttribute="centerY" secondItem="h2d-8E-t3y" secondAttribute="centerY" id="1uk-LF-zc6"/>
                             <constraint firstItem="FkW-yp-3PC" firstAttribute="centerX" secondItem="jYR-fh-iND" secondAttribute="centerX" constant="66.5" id="3sB-5g-zhp"/>
                             <constraint firstItem="QDR-QP-ZWH" firstAttribute="centerX" secondItem="jYR-fh-iND" secondAttribute="centerX" constant="-56.5" id="6p6-Ud-IGd"/>
                             <constraint firstItem="oSu-Ls-nkr" firstAttribute="centerX" secondItem="jYR-fh-iND" secondAttribute="centerX" constant="66.5" id="7vx-TC-Img"/>
@@ -1235,6 +1261,7 @@ TWlsZXN0b25lIDIgLUR1ZQs
                             <constraint firstItem="1CB-Fn-WPk" firstAttribute="centerY" secondItem="jYR-fh-iND" secondAttribute="centerY" constant="18" id="L4C-EY-zs8"/>
                             <constraint firstItem="Zq7-kp-PNY" firstAttribute="centerX" secondItem="jYR-fh-iND" secondAttribute="centerX" constant="87.5" id="Ljc-Y5-nqS"/>
                             <constraint firstItem="nMs-dn-pS9" firstAttribute="centerY" secondItem="jYR-fh-iND" secondAttribute="centerY" constant="-33" id="MXD-UV-d7Z"/>
+                            <constraint firstItem="813-kx-ohN" firstAttribute="leading" secondItem="h2d-8E-t3y" secondAttribute="trailing" constant="17" id="Onu-4c-cM5"/>
                             <constraint firstItem="Trm-aD-Qzd" firstAttribute="centerX" secondItem="jYR-fh-iND" secondAttribute="centerX" constant="87.5" id="PiQ-Dg-tIq"/>
                             <constraint firstItem="gvu-fV-9o2" firstAttribute="centerY" secondItem="jYR-fh-iND" secondAttribute="centerY" constant="-83" id="RPl-ft-8uT"/>
                             <constraint firstItem="Zq7-kp-PNY" firstAttribute="centerY" secondItem="jYR-fh-iND" secondAttribute="centerY" constant="92" id="SJF-Vj-26O"/>
@@ -1255,10 +1282,12 @@ TWlsZXN0b25lIDIgLUR1ZQs
                             <constraint firstItem="E1x-zy-Xyw" firstAttribute="centerX" secondItem="jYR-fh-iND" secondAttribute="centerX" constant="87.5" id="q5m-i9-UKQ"/>
                             <constraint firstItem="1Ne-S1-eBt" firstAttribute="centerX" secondItem="jYR-fh-iND" secondAttribute="centerX" constant="-72.5" id="qJ5-JX-lq0"/>
                             <constraint firstItem="QDR-QP-ZWH" firstAttribute="centerY" secondItem="jYR-fh-iND" secondAttribute="centerY" constant="151.5" id="r4P-5b-Z7f"/>
+                            <constraint firstItem="813-kx-ohN" firstAttribute="leading" secondItem="Trm-aD-Qzd" secondAttribute="leading" id="rhH-JZ-WEy"/>
                             <constraint firstItem="1CB-Fn-WPk" firstAttribute="centerX" secondItem="jYR-fh-iND" secondAttribute="centerX" id="sYy-vB-LN1"/>
                             <constraint firstItem="nMs-dn-pS9" firstAttribute="centerX" secondItem="jYR-fh-iND" secondAttribute="centerX" id="tBg-US-0su"/>
                             <constraint firstItem="5Bz-uC-15g" firstAttribute="centerX" secondItem="jYR-fh-iND" secondAttribute="centerX" constant="-72.5" id="u8v-kM-sc0"/>
                             <constraint firstItem="5Bz-uC-15g" firstAttribute="centerY" secondItem="jYR-fh-iND" secondAttribute="centerY" constant="-209" id="vWn-ji-14V"/>
+                            <constraint firstItem="813-kx-ohN" firstAttribute="top" secondItem="bHj-Rh-8XJ" secondAttribute="bottom" constant="42" id="vuh-P6-MWF"/>
                             <constraint firstItem="pom-AR-cfi" firstAttribute="centerY" secondItem="jYR-fh-iND" secondAttribute="centerY" constant="-167" id="wWH-Uj-UVM"/>
                             <constraint firstItem="d3f-fp-Mx3" firstAttribute="centerX" secondItem="jYR-fh-iND" secondAttribute="centerX" constant="-148.5" id="xYP-Jd-bj6"/>
                             <constraint firstItem="FkW-yp-3PC" firstAttribute="centerY" secondItem="jYR-fh-iND" secondAttribute="centerY" constant="-83" id="xh8-Bq-C2M"/>
@@ -1270,10 +1299,26 @@ TWlsZXN0b25lIDIgLUR1ZQs
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aYK-Kx-4Ir"/>
+                    <connections>
+                        <outlet property="CurrentGrade" destination="Zq7-kp-PNY" id="x6K-YK-PLx"/>
+                        <outlet property="FinalExam" destination="Trm-aD-Qzd" id="Ius-N1-rsM"/>
+                        <outlet property="GradeNeeded" destination="813-kx-ohN" id="aIb-y5-BZT"/>
+                        <outlet property="GradeText1" destination="1Ne-S1-eBt" id="GNc-9w-Evi"/>
+                        <outlet property="GradeText2" destination="5Bz-uC-15g" id="4lP-Nb-d9F"/>
+                        <outlet property="GradeText3" destination="pom-AR-cfi" id="xkA-sF-sTt"/>
+                        <outlet property="GradeText4" destination="LUS-eJ-yK2" id="1zn-NA-GBi"/>
+                        <outlet property="GradeText5" destination="gvu-fV-9o2" id="Pp1-Fu-UYv"/>
+                        <outlet property="GradeWanted" destination="E1x-zy-Xyw" id="abz-el-bjj"/>
+                        <outlet property="WeightText1" destination="WbP-xZ-nJ0" id="OUi-eC-NT3"/>
+                        <outlet property="WeightText2" destination="oSu-Ls-nkr" id="7h0-WJ-ukZ"/>
+                        <outlet property="WeightText3" destination="XeM-Lu-Sd6" id="iwX-gM-yot"/>
+                        <outlet property="WeightText4" destination="iep-Zk-QoC" id="Axe-uI-cu1"/>
+                        <outlet property="WeightText5" destination="FkW-yp-3PC" id="FFB-pJ-Pim"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WGU-Dq-iec" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1064" y="775"/>
+            <point key="canvasLocation" x="1063.768115942029" y="774.77678571428567"/>
         </scene>
         <!--Calendar View Controller-->
         <scene sceneID="TcU-lI-MrP">
@@ -1588,7 +1633,7 @@ TWlsZXN0b25lIDIgLUR1ZQs
         <segue reference="JW4-mr-iEL"/>
         <segue reference="0tc-nC-iKD"/>
         <segue reference="ldT-MR-6p6"/>
-        <segue reference="xqJ-k3-qdT"/>
+        <segue reference="o0o-Rf-Cs4"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="back" width="346" height="926"/>
