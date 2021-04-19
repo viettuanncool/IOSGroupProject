@@ -13,6 +13,8 @@
 		2257F2F1261A778300172F96 /* GradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2257F2F0261A778300172F96 /* GradeViewController.swift */; };
 		2257F2F6261AA86400172F96 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2257F2F5261AA86400172F96 /* CalendarViewController.swift */; };
 		2257F2FB261AA91700172F96 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2257F2FA261AA91700172F96 /* HomeViewController.swift */; };
+		2259F761262D09E400BF5AED /* DateViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2259F760262D09E400BF5AED /* DateViewCell.swift */; };
+		2259F766262D0B1100BF5AED /* CalendarVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2259F765262D0B1100BF5AED /* CalendarVar.swift */; };
 		22E896D02619732900AA398F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E896CF2619732900AA398F /* AppDelegate.swift */; };
 		22E896D22619732900AA398F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E896D12619732900AA398F /* SceneDelegate.swift */; };
 		22E896D72619732900AA398F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E896D52619732900AA398F /* Main.storyboard */; };
@@ -46,6 +48,8 @@
 		2257F2F0261A778300172F96 /* GradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeViewController.swift; sourceTree = "<group>"; };
 		2257F2F5261AA86400172F96 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		2257F2FA261AA91700172F96 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2259F760262D09E400BF5AED /* DateViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewCell.swift; sourceTree = "<group>"; };
+		2259F765262D0B1100BF5AED /* CalendarVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVar.swift; sourceTree = "<group>"; };
 		22E896CC2619732900AA398F /* Group Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Group Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E896CF2619732900AA398F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22E896D12619732900AA398F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				2257F2F0261A778300172F96 /* GradeViewController.swift */,
 				2257F2F5261AA86400172F96 /* CalendarViewController.swift */,
 				2257F2FA261AA91700172F96 /* HomeViewController.swift */,
+				2259F760262D09E400BF5AED /* DateViewCell.swift */,
+				2259F765262D0B1100BF5AED /* CalendarVar.swift */,
 			);
 			path = "Group Project";
 			sourceTree = "<group>";
@@ -278,6 +284,8 @@
 				223A8723261A003800E824EE /* CourseViewController.swift in Sources */,
 				2257F2FB261AA91700172F96 /* HomeViewController.swift in Sources */,
 				223A872B261A1D7700E824EE /* HistoryViewController.swift in Sources */,
+				2259F766262D0B1100BF5AED /* CalendarVar.swift in Sources */,
+				2259F761262D09E400BF5AED /* DateViewCell.swift in Sources */,
 				2257F2F1261A778300172F96 /* GradeViewController.swift in Sources */,
 				2257F2F6261AA86400172F96 /* CalendarViewController.swift in Sources */,
 				22E896D22619732900AA398F /* SceneDelegate.swift in Sources */,
