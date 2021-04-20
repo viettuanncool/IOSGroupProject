@@ -23,6 +23,7 @@
 		22E896E72619732B00AA398F /* Group_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E896E62619732B00AA398F /* Group_ProjectTests.swift */; };
 		22E896F22619732B00AA398F /* Group_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E896F12619732B00AA398F /* Group_ProjectUITests.swift */; };
 		2DCFEC2C262E04B400418E36 /* GradeCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFEC2B262E04B400418E36 /* GradeCalculatorViewController.swift */; };
+		5D55557B262F335900BF1CF6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D55557A262F335900BF1CF6 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		22E896F12619732B00AA398F /* Group_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_ProjectUITests.swift; sourceTree = "<group>"; };
 		22E896F32619732B00AA398F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DCFEC2B262E04B400418E36 /* GradeCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeCalculatorViewController.swift; sourceTree = "<group>"; };
+		5D55557A262F335900BF1CF6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				2259F760262D09E400BF5AED /* DateViewCell.swift */,
 				2259F765262D0B1100BF5AED /* CalendarVar.swift */,
 				2DCFEC2B262E04B400418E36 /* GradeCalculatorViewController.swift */,
+				5D55557A262F335900BF1CF6 /* LoginViewController.swift */,
 			);
 			path = "Group Project";
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D55557B262F335900BF1CF6 /* LoginViewController.swift in Sources */,
 				22E896D02619732900AA398F /* AppDelegate.swift in Sources */,
 				223A871E2619FF7000E824EE /* SemasterViewController.swift in Sources */,
 				223A8723261A003800E824EE /* CourseViewController.swift in Sources */,

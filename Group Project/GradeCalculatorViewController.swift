@@ -32,6 +32,8 @@ class GradeCalculatorViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
     }
     
     @IBAction func submitCalcGrade(){
@@ -47,15 +49,15 @@ class GradeCalculatorViewController: UIViewController {
         let weight4 = Double(WeightText4.text!)
         let weight5 = Double(WeightText5.text!)
         
-        let finalgrade1 = grade1! * (weight1!/100)
-        let finalgrade2 = grade2! * (weight2!/100)
-        let finalgrade3 = grade3! * (weight3!/100)
-        let finalgrade4 = grade4! * (weight4!/100)
-        let finalgrade5 = grade5! * (weight5!/100)
+        let weightedgrade = (weight1! + weight2! + weight3! + weight4! + weight5!)
         
-        let currentgrade = (finalgrade1 + finalgrade2 + finalgrade3 + finalgrade4 + finalgrade5)
+        let currentgrade = (grade1! + grade2! + grade3! + grade4! + grade5!)
+
         
-        CurrentGrade.text = String(format: "%.2f", currentgrade)
+        let finalgrade = ((currentgrade / weightedgrade) * 100)
+        
+        
+        CurrentGrade.text = String(format: "%.2f", finalgrade)
     }
     
     @IBAction func calcFinalGradeBtn(){
